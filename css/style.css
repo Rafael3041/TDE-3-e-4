@@ -1,0 +1,503 @@
+
+@import url('https://fonts.cdnfonts.com/css/harry-potter'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rye&display=swap');
+
+
+body {
+    
+   font-family: "Rye", serif;
+    background-image: url('https://images.tcdn.com.br/files/1035637/themes/119/img/background_harry_azul_marinho.jpg?5b6186696ac49910c03f7b0d438d5af7');
+    color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    color: #333;
+   
+}
+
+.header {
+    background-color: #1c2a3a;
+    color: #a6955a;
+    text-align: center;
+    padding: 40px;
+      margin-bottom: 0;
+    position: relative;
+    border-bottom: 3px solid #a18856;
+    box-shadow: 0 -1px 0 #cbb587;
+}
+
+
+
+.header__title {
+  font-family: 'Harry Potter', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+  font-size: 50px;
+}
+
+.header__subtitle {
+  font-family: 'Harry Potter', sans-serif;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #7f8c8d;
+  font-size: 25px;
+}
+
+.header__nav {
+    margin-top: 40px;
+  
+}
+
+.header__menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu__link {
+  text-transform: uppercase;
+    text-decoration: none;
+    color: #a6955a;
+    border-radius: 6px;
+    padding: 4px 8px;
+  
+}
+
+.menu__link:hover {
+    background-color: #3e3e3e;
+    color: #f1c40f;
+}
+
+.h1 , h2 , h3{
+   font-family: 'Harry Potter', sans-serif;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section--intro {
+    padding: 50px 20px;
+  
+  
+}
+
+.intro__title {
+    text-transform: uppercase;
+    color: #a6955a; 
+    margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.intro__text {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    color: #a6955a;
+   font-size: 20px;
+}
+
+.intro__button {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #a6955a;
+    color: #1c2a3a;
+    cursor: pointer;
+    border: 2px solid #444444;
+    border-radius: 5px;
+
+}
+
+.intro__button:hover {
+    background-color: #444444; 
+    color: #f1c40f;
+}
+
+.section--about {
+  
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section__title {
+    position: relative;
+    font-size: 2rem;
+    text-align: center;
+    color: #a6955a;
+}
+
+.section__title::before,
+.section__title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35%;
+    height: 3px; 
+    background-color: #a6955a; 
+}
+
+.section__title::before {
+    left: -5%;
+}
+
+.section__title::after {
+    right: -5%; 
+}
+
+
+
+
+.section__text {
+    padding-top: auto;
+    color: #a6955a;
+  font-size: 20px;
+}
+
+.about__grid {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.about__item {
+    background-color: #a6955a;
+    padding: 10px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.about__subtitle {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #1c2a3a;
+}
+
+.about__description {
+    color: #1c2a3a;
+    text-align: center;
+}
+
+.about__item:hover {
+    border: 2px solid #c0b290;
+}
+
+.section__title {
+    text-transform: uppercase;
+    color: #a6955a;
+    margin-bottom: 40px;
+}
+
+
+.gallery__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.gallery__item {
+    background-color: #a6955a;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    width: 300px;
+    
+}
+
+.gallery__item:hover {
+    border: 2px solid #c0b290;
+}
+
+.gallery__img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.gallery__caption {
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #1c2a3a;
+  font-size:20px;
+}
+
+.btn-more {
+  color: #a6955a;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #1c2a3a;
+    text-transform: uppercase;
+    border: 2px solid #444444;
+    border-radius: 5px;
+    cursor: pointer;
+  font-family: "Rye", serif;
+}
+
+
+.section--services {
+    
+    padding: 60px 20px;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.services__list {
+    display: flex;
+    gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.service__item {
+    background-color: #a6955a;
+    padding: 10px;
+    border-radius: 8px;
+  width: 200px
+  
+}
+
+.service__title {
+    color: #1c2a3a;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.service__description {
+    color: #1c2a3a;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  font-size: 15px
+}
+
+.service__item:hover {
+    border: 2px solid #c0b290;
+}
+.section--news {
+  
+    border-radius: 10px;
+    padding: 40px 20px;
+   
+}
+
+
+.news__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  
+}
+
+.news__item {
+    background-color: #a6955a;
+    border: 1px solid #444444;
+    border-radius: 8px;
+    min-width: 10px;
+   
+}
+
+.news__item:hover {
+    border: 2px solid #c0b290
+}
+
+.news__img {
+    width: 100%;
+    height: 150px;
+    border-bottom: 2px solid #444444;
+}
+
+.news__content {
+    padding: 15px;
+}
+
+.news__title {
+    
+    margin-bottom: 10px;
+    color:  #1c2a3a;
+  font-size: 20px;
+}
+
+.news__date {
+    font-size: 0.9rem;
+    color: #1c2a3a;
+    margin-bottom: 10px;
+}
+
+.news__summary {
+    font-size: 1rem;
+    color: #1c2a3a;
+    margin-bottom: 15px;
+}
+
+   
+
+.btn-more:hover {
+    background-color: #444444;
+    color: #f1c40f;
+}
+
+.section--contact {
+        margin-top: 0;
+    position: relative;
+    border-top: 3px solid #a18856;
+    box-shadow: 0 -1px 0 #cbb587;
+   
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 20px;
+  
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label {
+    font-size: 1rem;
+    color: #a6955a; 
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  font-size: 15px;
+}
+
+.form__input {
+    padding: 10px;
+    border: 1px solid #444444;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #a6955a;
+    color: #1c2a3a;
+}
+
+
+.form__button {
+    padding: 12px;
+    background-color: #1c2a3a;
+    color: #a6955a;
+    border: 2px solid #a6955a;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+  font-family: "Rye", serif;
+  
+  
+}
+
+.form__button:hover {
+    background-color: #444444;
+    color: #f1c40f;
+}
+
+.footer {
+    background-color: #1c2a3a;
+    color: #a6955a;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.footer__text {
+    margin-bottom: 10px;
+}
+
+.footer__social {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+}
+
+.social__link {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.social__link:hover {
+    color:#c0b290;
+}
+
+
+@media (max-width: 768px) {
+    .header__menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .about_grid, .gallerygrid, .serviceslist, .news_grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about_item, .galleryitem, .news_item {
+        width: 100%;
+    }
+
+    .news__img {
+        height: 120px;
+    }
+
+    .section {
+        padding: 40px 10px;
+    }
+
+    .contact__form {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .form_input, .form_button {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .about_grid, .gallerygrid, .serviceslist, .news_grid {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .about_item, .galleryitem, .news_item {
+        width: 45%;
+    }
+
+    .header__menu {
+        gap: 15px;
+    }
+
+    .news__img {
+        height: 140px;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .news__item {
+        width: calc(25% - 20px);
+  }
+      
+
+    .news__img {
+        height: 150px;
+    }
+
+    .contact__form {
+        max-width: 600px;
+    }
+}
